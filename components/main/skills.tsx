@@ -90,7 +90,7 @@ export const Skills = () => {
             muted
             autoPlay
           >
-            <source src="/videos/skills-bg.webm" type="video/webm" />
+            <source src={`${process.env.NEXT_PUBLIC_BASE_PATH ?? ""}/videos/skills-bg.webm`} type="video/webm" />
           </video>
         </div>
       </div>
